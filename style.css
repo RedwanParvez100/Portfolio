@@ -101,6 +101,17 @@ nav button#menuButton{
     margin-top: 20px;
 }
 
+.main .left button{
+    margin-top: 40px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #5e3bee;
+    padding: 14px 24px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+
 .main .right img{
-    width: 300px;
+    width: 500px;
 }
