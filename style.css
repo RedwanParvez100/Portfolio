@@ -137,4 +137,24 @@ nav button#menuButton{
     background-color: #deebee;
     width: 25%;
     border-radius: 10px;
+    padding: 32px;
+    border-bottom: 4px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.skills .skill-items .item:hover{
+    border-color: #5e3bee;
+}
+
+.skills .skill-items .item .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 46px;
+    height: 46px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
 }
