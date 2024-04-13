@@ -217,5 +217,34 @@ nav button#menuButton{
 }
 
 .portfolio .header button i{
-    font-size: px;
+    font-size: 25px;
+}
+
+.portfolio .portfo-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portfolio .portfo-items .item{
+    width: 300%;
+    background-color: #fff;
+    border-radius: 10px;
+    border-bottom: 4px solid transparent;
+    cursor: pointer;
+    box-shadow: 0 5px 32px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+
+}
+
+.portfolio .portfo-items .item:hover{
+    border-color: #5e3bee;
+}
+
+.portfolio .portfo-items .item img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px 10px 20px 20px;
 }
