@@ -248,3 +248,25 @@ nav button#menuButton{
     object-position: top;
     border-radius: 10px 10px 20px 20px;
 }
+
+.portfolio .portfo-items .item .info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 30px 40px;
+}
+
+.portfolio .portfo-items .item .info p{
+    font-size: 15px;
+}
+
+.portfolio .portfo-items .item .info a{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: #5e3bee;
+}
+
+.portfolio .portfo-items .item .info a i{
+    margin-left: 5px;
+    font-size: 15px;
+}
