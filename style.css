@@ -378,6 +378,69 @@ footer .bottom .links a{
         flex-direction: column;
         justify-content: center;
     }
+
+    .portfolio .portfo-items{
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .portfolio .portfo-items .item{
+        width: 48%;
+    }
+
+    footer .top ul{
+        display: none;
+    }
 }
 
+@media screen and (max-width:768px) {
+
+    nav{
+        justify-content: space-between;
+        padding: 0 40px;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    nav button#menuButton{
+        display: flex;
+    }
+
+    .main{
+        padding: 40px;
+    }
+
+    .skills{
+        padding: 85px 40px 0;
+    }
+
+    .skills .skill-items{
+        gap: 10px;
+    }
+
+    .about{
+        padding: 85px 40px;
+    }
+
+    .portfolio{
+        padding: 60px 40px;
+    }
+
+    .portfolio .portfo-items{
+        gap: 20px;
+    }
+
+    footer{
+        padding: 85px 40px;
+    }
+
+    footer .bottom{
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+    
+}
 
