@@ -254,6 +254,7 @@ nav button#menuButton{
     flex-direction: column;
     gap: 15px;
     padding: 20px 30px 40px;
+    text-align: justify;
 }
 
 .portfolio .portfo-items .item .info p{
